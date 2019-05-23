@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve  and fulfill NeedIt requests</description>
+        <internal_name>needit_fulfillmen</internal_name>
+        <label_cache>[{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.record.u_what_needed","label":"3.1➛NeedIt Record➛What needed","reference":"","reference_display":"What needed","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_what_needed"},{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.record.priority","label":"3.1➛NeedIt Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"priority"},{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.record.u_request_type","label":"3.1➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"d5994435-5368-437e-8e0d-0f1ba0860488.table_name","label":"4➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"d5994435-5368-437e-8e0d-0f1ba0860488.record","label":"4➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"22aa2d30-2e11-442e-81d1-628cf6400117.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"22aa2d30-2e11-442e-81d1-628cf6400117.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"19e2ed3f-3ce2-4506-a347-f44b10987375.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"9cc98e50-7b4a-46a8-9576-488ecc6b0770.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9cc98e50-7b4a-46a8-9576-488ecc6b0770.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"ec18c9fc-a1c5-4995-b310-2d04b4775fa4.record","label":"4.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"ec18c9fc-a1c5-4995-b310-2d04b4775fa4.table_name","label":"4.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"4386c5ee-0035-4441-b1e9-be7a51701168.answer","label":"3.2➛Asignee Category Record","reference":"x_58872_needit_asignee_category","reference_display":"Asignee Category Record","type":"reference","base_type":"reference"},{"name":"16231036-cb85-47fe-9b50-e12207432f9b.Record","label":"3.2.1.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"16231036-cb85-47fe-9b50-e12207432f9b.Table","label":"3.2.1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"9d33f58a-8812-49ea-a815-f1ca5ae793d6.Record","label":"3.2.1.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"9d33f58a-8812-49ea-a815-f1ca5ae793d6.Table","label":"3.2.1.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"4386c5ee-0035-4441-b1e9-be7a51701168.answer.assignee","label":"3.2➛Asignee Category Record➛Assignee","reference":"sys_user","reference_display":"Assignee","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_asignee_category","column_name":"assignee"},{"name":"ee5f05f8-c84e-441e-9eec-657d0f8917c2.record.u_when_needed","label":"3.1➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"a9cef519-6ab1-48e6-b5b6-814c6ed17d9e.Record","label":"3.2.4.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"a9cef519-6ab1-48e6-b5b6-814c6ed17d9e.Table","label":"3.2.4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>a631e735dbe1330054c92fb7489619ea</latest_snapshot>
+        <master_snapshot>a631e735dbe1330054c92fb7489619ea</master_snapshot>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>fe312b35dbe1330054c92fb74896196c</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-22 06:28:42</sys_created_on>
+        <sys_id>02a6973ddba1330054c92fb748961905</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_02a6973ddba1330054c92fb748961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-23 02:40:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=02a6973ddba1330054c92fb748961905"/>
+    <sys_variable_value action="delete_multiple" query="document_key=02a6973ddba1330054c92fb748961905"/>
+</record_update>
